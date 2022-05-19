@@ -5,8 +5,14 @@ import './Nav.css';
 
 function Nav({onSearch}) {
   return (
-    <div>Nav</div>
-  );
+    <nav>
+    <ul className='lista1'>
+      <li><img src={Logo} alt='Logo Henry' id='logoHenry'></img></li>
+      <li>Henry - Weatherapp</li>
+      <li><SearchBar onSearch={onSearch}/></li>
+    </ul>
+    </nav>
+    );
 };
 
 export default Nav;

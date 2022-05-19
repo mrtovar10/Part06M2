@@ -1,3 +1,19 @@
 #logoHenry {
   margin-right: 20px;
 }
+
+.lista1 {
+  display:flex;
+  background-color:rgb(35, 32, 32);
+  list-style: none;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+.lista1 li {
+  border-radius: 3px;
+  margin: 5px;
+  display: block;
+  font-size: 18px;
+  color: aliceblue;
+}
